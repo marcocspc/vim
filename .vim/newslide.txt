@@ -1,0 +1,8 @@
+\frame {
+	\frametitle{}
+	\begin{itemize}
+	    \item 
+	\end{itemize}
+	\includegraphics[width=\textwidth]{}
+}
+
