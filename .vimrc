@@ -19,3 +19,13 @@ inoremap [<Space> []<Left>
 inoremap {<Space> {}<Left>
 inoremap '<Space> ''<Left>
 inoremap "<Space> ""<Left>
+
+" Alguns comandos de aba
+nnoremap th  :tabfirst<CR>
+nnoremap tk  :tabnext<CR>
+nnoremap tj  :tabprev<CR>
+nnoremap tl  :tablast<CR>
+nnoremap tt  :tabedit<Space>
+nnoremap tn  :tabnext<Space>
+nnoremap tm  :tabm<Space>
+nnoremap td  :tabclose<CR>
