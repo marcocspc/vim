@@ -27,5 +27,6 @@ nnoremap tj  :tabprev<CR>
 nnoremap tl  :tablast<CR>
 nnoremap tt  :tabedit<Space>
 nnoremap tn  :tabnext<Space>
+nnoremap tb  :tabprev<CR>
 nnoremap tm  :tabm<Space>
 nnoremap td  :tabclose<CR>
