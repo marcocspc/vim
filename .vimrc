@@ -1,3 +1,6 @@
+" Evitar que, no MAC, em sessoes SSH, o vim entre no modo visual ao selecionar
+set mouse=i
+
 " Colocar indentação usando espaços
 filetype plugin indent on
 " show existing tab with 4 spaces width
