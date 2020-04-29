@@ -46,3 +46,9 @@ nnoremap td  :tabclose<CR>
 " Permite o uso do registrador "* no gvim e no macvim sem precisar apertar as teclas correspondentes
 " Na verdade, para o macvim este comando é necessário para que a área de transferência funcione corretamente
 set clipboard=unnamed
+
+" Ativa a detecção de tipos de arquivo 
+filetype plugin indent on
+
+" Ativa a coloração do código 
+syntax on
