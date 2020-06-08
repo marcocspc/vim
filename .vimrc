@@ -52,3 +52,6 @@ filetype plugin indent on
 
 " Ativa a coloração do código 
 syntax on
+
+" Deixa eu apagar porra
+set backspace=indent,eol,start
