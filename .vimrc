@@ -55,3 +55,6 @@ syntax on
 
 " Deixa eu apagar porra
 set backspace=indent,eol,start
+
+" Setar verificação ortográfica para alguns tipos de arquivo
+autocmd FileType latex,tex,md,markdown setlocal spell spelllang=pt
