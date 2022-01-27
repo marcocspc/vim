@@ -46,6 +46,8 @@ nnoremap td  :tabclose<CR>
 " Permite o uso do registrador "* no gvim e no macvim sem precisar apertar as teclas correspondentes
 " Na verdade, para o macvim este comando é necessário para que a área de transferência funcione corretamente
 set clipboard=unnamed
+" A mesma coisa para Linux abaixo (descomente para usar)
+" set clipboard=unnamedplus
 
 " Ativa a detecção de tipos de arquivo 
 filetype plugin indent on
@@ -58,3 +60,7 @@ set backspace=indent,eol,start
 
 " Setar verificação ortográfica para alguns tipos de arquivo
 autocmd FileType latex,tex,md,markdown setlocal spell spelllang=pt
+
+" Inserir hífen e travessão automaticamente em alguns tipos de arquivo
+autocmd FileType latex,tex,md,markdown inoremap <buffer> --<space> –<space>
+autocmd FileType latex,tex,md,markdown inoremap <buffer> -- —
