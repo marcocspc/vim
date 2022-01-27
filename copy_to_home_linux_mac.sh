@@ -5,6 +5,7 @@ if [ -f ".vim" ]; then
     cp -r .vim ~/
 else
     echo ".vim not found, skipping this folder."
+fi
 
 
 if [ -f ".vimrc" ]; then
@@ -12,5 +13,6 @@ if [ -f ".vimrc" ]; then
     cp .vimrc ~/
 else
     echo ".vimrc not found, skipping this file."
+fi
 
 echo "Done!"
