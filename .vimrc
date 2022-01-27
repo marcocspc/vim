@@ -23,7 +23,7 @@ set number
 command Nslide r ~/.vim/newslide.txt
 
 " Um simples destaque na linha no modo de inserção
-:autocmd InsertEnter,InsertLeave * set cul!
+autocmd InsertEnter,InsertLeave * set cul!
 
 " Fechar {, [, (, ' e " automaticamente:
 inoremap (<Space> ()<Left>
@@ -62,5 +62,5 @@ set backspace=indent,eol,start
 autocmd FileType latex,tex,md,markdown setlocal spell spelllang=pt
 
 " Inserir hífen e travessão automaticamente em alguns tipos de arquivo
-autocmd FileType latex,tex,md,markdown inoremap <buffer> --<space> –<space>
+autocmd FileType latex,tex,md,markdown inoremap <buffer> --<space> —<space>
 autocmd FileType latex,tex,md,markdown inoremap <buffer> -- —
