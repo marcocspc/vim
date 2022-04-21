@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -f ".vim" ]; then
+if [ -d ".vim" ]; then
     echo "Copying .vim to your home folder."
     cp -r .vim ~/
 else
