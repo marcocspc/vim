@@ -59,8 +59,13 @@ syntax on
 set backspace=indent,eol,start
 
 " Setar verificação ortográfica para alguns tipos de arquivo
-autocmd FileType latex,tex,md,markdown setlocal spell spelllang=pt
+autocmd FileType latex,tex,md,markdown setlocal spell spelllang=pt,en
 
 " Inserir hífen e travessão automaticamente em alguns tipos de arquivo
 autocmd FileType latex,tex,md,markdown inoremap <buffer> --<space> —<space>
 autocmd FileType latex,tex,md,markdown inoremap <buffer> -- —
+
+" Fechar tags HTML automaticamente em arquivos html e js (quanto aperta >/ ou
+" ,/ no modo de inserção)
+autocmd FileType html,js imap <silent> <C-c> ,/<C-X><C-O><C-X><Esc>F<i
+autocmd FileType html,js imap <silent> <C-c> </<C-X><C-O><C-X><Esc>F<i
