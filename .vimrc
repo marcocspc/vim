@@ -35,7 +35,7 @@ inoremap "<Space> ""<Left>
 " Alguns comandos de aba
 nnoremap th  :tabfirst<CR>
 nnoremap tk  :tabnext<CR>
-nnoremap tn  :tabnext<CR>
+nnoremap tn  :tabnew .<CR>
 nnoremap tj  :tabprev<CR>
 nnoremap tl  :tablast<CR>
 nnoremap tt  :tabedit<Space>
