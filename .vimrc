@@ -72,13 +72,13 @@ autocmd FileType html,js imap <silent> <C-c> </<C-X><C-O><C-X><Esc>F<i
 
 " Envolver texto selecionado no modo visual (quando se aperta v)
 " entre aspas (atalho é \" quando no modo visual)
-vnoremap <leader>" <esc>a"<esc>0i"<esc>
+vnoremap <leader>" xi""<Esc>P
 " Envolver texto selecionado no modo visual (quando se aperta v)
 " entre colchetes (atalho é \[ quando no modo visual)
-vnoremap <leader>[ <esc>a]<esc>0i[<esc>
+vnoremap <leader>[ xi[]<Esc>P
 " Envolver texto selecionado no modo visual (quando se aperta v)
 " entre parenteses (atalho é \( quando no modo visual)
-vnoremap <leader>( <esc>a)<esc>0i(<esc>
+vnoremap <leader>( xi()<Esc>P
 " Envolver texto selecionado no modo visual (quando se aperta v)
 " entre chaves (atalho é \{ quando no modo visual)
-vnoremap <leader>{ <esc>a}<esc>0i{<esc>
+vnoremap <leader>{ xi{}<Esc>P
