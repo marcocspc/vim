@@ -86,5 +86,6 @@ vnoremap <leader>{ xi{}<Esc>P
 " usar ESC para sair do modo insert (-- TERMINAL --) quando usando o terminal
 tnoremap <Esc> <C-\><C-n>
 
-" permitir edicoes na linha de comando do terminal
+" permitir edicoes na linha de comando do terminal (tem que lembrar de dar :w antes de voltar pro modo insercao)
 set modifiable
+set buftype=
