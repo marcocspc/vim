@@ -82,3 +82,9 @@ vnoremap <leader>( xi()<Esc>P
 " Envolver texto selecionado no modo visual (quando se aperta v)
 " entre chaves (atalho é \{ quando no modo visual)
 vnoremap <leader>{ xi{}<Esc>P
+
+" usar ESC para sair do modo insert (-- TERMINAL --) quando usando o terminal
+tnoremap <Esc> <C-\><C-n>
+
+" permitir edicoes na linha de comando do terminal
+set modifiable
